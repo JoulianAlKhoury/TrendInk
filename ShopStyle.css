@@ -1,0 +1,188 @@
+body{
+    margin: 0px;
+   font-family: 'Roboto', sans-serif;
+   background-color: rgb(164, 131, 255);
+   scroll-behavior: smooth;
+}
+.header{
+    background-color: rgb(140, 100, 253);border-bottom: 1px black solid;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 10px;
+    position: sticky;
+    top: 0;
+    
+}
+.in-header{
+    display: flex; 
+    align-items: center;
+}
+.logo{
+    width: 100px; ;
+}
+.header-links a {
+    
+    border-radius: 20px;
+    text-decoration:none;
+    padding:  5px 10px;
+    color: rgb(240, 172, 15);
+}
+
+.header-links a:hover{
+    background-color: rgb(154, 118, 252);
+}
+.Home a {
+    
+    border-radius: 20px;
+    text-decoration: none;
+    padding:  5px 10px;
+    color: rgb(240, 172, 15);
+}
+.Home a:hover{
+    background-color: rgb(154, 118, 252);
+}
+.Shop a {
+    
+    border-radius: 20px;
+    
+    padding:  5px 10px;
+    color: rgb(240, 172, 15);
+}
+.Shop a:hover{
+    background-color: rgb(154, 118, 252);
+}
+.Contact a {
+    
+    border-radius: 20px;
+    text-decoration: none;
+    padding:  5px 10px;
+    color: rgb(240, 172, 15);
+}
+.Contact a:hover{
+    background-color: rgb(154, 118, 252);
+}
+.About-us a {
+    
+    border-radius: 20px;
+    text-decoration: none;
+    padding:  5px 10px;
+    color: rgb(240, 172, 15);
+}
+.About-us a:hover{
+    background-color: rgb(154, 118, 252);
+}
+.Sign-in button{
+    font-family: 'Roboto', sans-serif;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 20px;
+    background-color: rgb(255, 195, 74);
+}
+
+.Sign-in button:hover{
+    background-color: rgb(255, 221, 154); 
+}
+.product1{
+    display:flex;
+    align-items: baseline;
+    
+   
+}
+.product{
+    width: 360px;
+    background-color: rgb(255, 195, 74);
+    border-radius: 50px 50px;
+    
+    margin: 10px 0 10px 10px;
+    
+}
+.product1 button{
+    background-color:rgb(255, 195, 74);
+    border-radius: 50px;
+   
+    width: 380px;
+    
+}
+.product1 button:hover{
+    background-color: rgb(255, 221, 154);
+    
+}
+.product img{
+    padding-left: 5px;
+    padding-top: 50px;
+    width: 350px;
+    
+}
+.product5 img{
+    padding-left: 5px;
+    padding-top: 50px;
+    width: 350px;
+    
+}
+.product h1 {
+    padding-left: 40px;
+}
+.product h2 {
+    padding-left: 120px;
+    text-transform: uppercase;
+}
+.product2{
+    display:flex;
+    align-items: baseline;
+    
+   
+}
+.product2 button{
+    background-color:rgb(255, 195, 74);
+    border-radius: 50px;
+   
+    width: 380px;
+    
+}
+.product2 button:hover{
+    background-color: rgb(255, 221, 154);
+    
+}
+.search-box{
+    border: 1px solid black;
+    
+    width: 75px;
+    height: 75px;
+    background-color: rgb(255, 195, 74);
+    border-radius: 50px;
+    overflow: hidden;
+    transition: 0.5s;
+    box-shadow: 0 10px 25px #00000033;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    
+}
+.search-box:hover{
+    width: 350px;
+}
+.search-box input{
+    
+    width: 100%;
+    height: 100%;
+    border: none;
+    padding: 0 70px 0 21px;
+    font-size: 1rem;
+    background-color: transparent;
+    outline: none;
+    
+    
+
+}
+.search-icon{
+    
+    right: 0;
+    width: 70px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #0f172a;
+    font-size: 1.3rem;
+
+}

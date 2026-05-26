@@ -1,0 +1,83 @@
+body{
+    margin: 0px;
+   font-family: 'Roboto', sans-serif;
+   background-color: rgb(164, 131, 255);
+}
+.header{
+    background-color: rgb(140, 100, 253);border-bottom: 1px black solid;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 10px;
+    position: sticky;
+    top: 0;
+}
+.in-header{
+    display: flex; 
+    align-items: center;
+}
+.logo{
+    width: 100px; ;
+}
+.header-links a {
+    
+    border-radius: 20px;
+    text-decoration:none;
+    padding:  5px 10px;
+    color: rgb(240, 172, 15);
+}
+
+.header-links a:hover{
+    background-color: rgb(154, 118, 252);
+}
+.Home a {
+    
+    border-radius: 20px;
+    text-decoration: none;
+    padding:  5px 10px;
+    color: rgb(240, 172, 15);
+}
+.Home a:hover{
+    background-color: rgb(154, 118, 252);
+}
+.Shop a {
+    
+    border-radius: 20px;
+    text-decoration: none;
+    padding:  5px 10px;
+    color: rgb(240, 172, 15);
+}
+.Shop a:hover{
+    background-color: rgb(154, 118, 252);
+}
+.Contact a {
+    
+    border-radius: 20px;
+    
+    padding:  5px 10px;
+    color: rgb(240, 172, 15);
+}
+.Contact a:hover{
+    background-color: rgb(154, 118, 252);
+}
+.About-us a {
+    
+    border-radius: 20px;
+    text-decoration: none;
+    padding:  5px 10px;
+    color: rgb(240, 172, 15);
+}
+.About-us a:hover{
+    background-color: rgb(154, 118, 252);
+}
+.Sign-in button{
+    font-family: 'Roboto', sans-serif;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 20px;
+    background-color: rgb(255, 195, 74);
+}
+
+.Sign-in button:hover{
+    background-color: rgb(255, 221, 154); 
+}
